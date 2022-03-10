@@ -5,7 +5,7 @@
   check that files in php container
 # $cfg['Servers'][$i]['controluser'] = 'pma'; 
 # $cfg['Servers'][$i]['controlpass'] = 'pmapass';
-# Next login in mysql container
+  Next login in mysql container
 # kubectl exec -it <sql-name> -- /bin/bash
 # mysql -u root -p 1234
 # CREATE USER 'pma'@'%' IDENTIFIED BY 'pmapass';
