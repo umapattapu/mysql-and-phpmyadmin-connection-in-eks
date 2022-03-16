@@ -10,4 +10,7 @@
 # mysql -u root -p 1234
 # CREATE USER 'pma'@'%' IDENTIFIED BY 'pmapass';
 # GRANT ALL PRIVILEGES ON *.* TO 'pma'@'%' WITH GRANT OPTION;
+#use multitenency;
+#GRANT ALL PRIVILEGES ON multitenancy.* TO 'myuser'@'%' WITH GRANT OPTION;  
+#FLUSH PRIVILEGES;  
 # https://stackoverflow.com/questions/46736319/phpmyadmin-error-mysqli-real-connect-hy000-1045-access-denied-for-user-p
